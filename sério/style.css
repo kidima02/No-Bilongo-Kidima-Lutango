@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif
+}
+.img{
+    align-items: center;
+    
+}
+.quem-somos{
+    padding: 30px; 
+    padding-inline-end: 60%;
+    justify-content: space-between;
+    font-size:  22px;
+    text-align: justify;
+    padding-left: 150px;
+    
+}
+.quem-somos p {
+    color:white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+}
+
+
+.uige{
+    color:white;
+    font-size: 15px;
+}
+.somos{
+    font-size: 15px;
+    
+}
+.terra{
+    
+    color: rgb(3, 179, 179);
+    font-size: 80px;
+    text-align: center;
+}
+.mais{
+    
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration-skip:unset;
+    font-size: 12px;
+    
+}
+body{
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/leda.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+.navbar{
+    height:12%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.menu-icon{
+    width: 30px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+nav ul{
+   display:flex;
+   align-items:center; 
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 60px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items:center;
+}
+.col{
+    width: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 12px;
+}
+.b1{
+    width: 188px;
+    color: black;
+    font-size: 13px;
+    padding: 12px 0;
+    background-color: rgb(9, 150, 150);
+    transition: 0,3s ease-in-out;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+  
+
+}
+.b1:hover{
+    transform: translateY(-10px);
+}
+
+h4 a{
+    color: white;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: 20px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px 25px ;
+    cursor:pointer;
+    margin: 15px 25px;
+    transition: 0,3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 5px black;
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+.card1{
+    background-image:url(./img/1000_F_298040690_xKD2RoognAWgzOjBtn31dPdTpD2apbId.jpg);
+}
+.card2{
+    background-image: url(./img/catumdela.jpg);
+}
+.card3{
+    background-image: url(./img/Huila.jpg);
+}
+.card4{
+    background-image: url(./img/Morro-do-moco.jpg);
+}
+
+
+/*Provi*/
+
+/*.sessao_titulo{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.curso_corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+.curso{
+    width: 280px;
+    margin: 0 20px;
+}
+.curso_titulo{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0 5px 0;}
+    .curso_img{
+        display: block;
+        max-width: 105%;
+        padding: 50px;
+    }
+
+   
+    */
+
+
+
+
+    /*outra-parte*/
+
+
+    
+    
+    .conj-2{
+
+        padding-top:2%;
+        padding-left: 10%;
+    }
+    .capa{
+        width: 200px;
+        height: 250px;
+        display:inline-block;
+        border-radius: 10px;
+        padding: 15px 25px ;
+        cursor:pointer;
+        margin: 15px 25px;
+        transition: 0,3s ease-in-out;
+        background-position: center;
+        background-size: cover;
+        box-shadow: 5px 5px 5px black;
+    }
+    .capa:hover{
+        transform: translateY(-15px);
+    
+        
+    }
+    .capa5{
+        background-image:url(./img/big_Namibe.png);
+    }
+    .capa6{
+        background-image: url(./img/big_cabinda.png);
+    }
+    .capa7{
+        background-image: url(./img/huige.png);
+    }
+    .capa8{
+        background-image: url(./img/cataracts-536144_1920.jpg);
+    }
+    
+
+h2{
+    color: rgb(26, 177, 157);
+}
+.quem-somos ul{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.hospedagem{
+    padding: 99px; 
+    padding-inline-end: 55%;
+    justify-content: space-between;
+    font-size:  20px; 
+}
+.lorem3{
+    font-size: 15px;
+}
+
+
+.container-footer{
+    max-width: 1500px;
+    padding: 0 5%;
+    margin: auto;
+}
+
+footer{
+    background-color: rgb(11, 153, 179);
+    padding: 30px;}
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    }
+
+    .row-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h5{
+    font-size: 20px;
+    color: white;
+    margin-bottom:  20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li{
+   margin: 10px 0;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display:block;
+    transition: all 0,3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: white;
+    padding-left: 10px;
+    
+}
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 39px;
+    width: 30px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius:18px;
+    color:white;
+    transition: all 0,5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+.footer-col .medias-socias a:hover{
+    color:rgb(44, 167, 184);
+    background-color: white;
+
+}
+.footer-col .form-sub input{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(44, 167, 184);
+}
+.footer-col .form-sub input::placeholder{
+    color: white;
+
+}
+
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline:none;
+    border: none;
+    cursor: pointer;
+    color: rgb(2, 126, 126);
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.footer{
+    
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.footer_copyrigth, .footer_logo{
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+/*Responsivo*/
+@media (max-width:800px) {
+    .footer-col{
+        width: 50px;
+        margin-bottom: 30px;
+    }
+   
+}
+
+@media screen and (max-width:750px) {
+
+
+
+
+    .footer-col{
+        width: 100%;
+       
+    
+    }
+    .quem-somos{
+        padding: 40%;
+        padding-left: 1%;
+    }
+    .conj-2{
+        display:block;
+        
+        
+
+    }
+   
+    body{
+        
+        background-repeat:repeat;
+        background-color: rgb(194, 228, 241);}
+            
+    
+            
+        .apresentação{
+            padding-bottom: 2000px;
+        }
+        .col{
+            margin-top: 2000px;
+            display: block;
+            margin-right: 20px;
+        } 
+
+       .navbar{
+        align-items: center;
+        display: block;
+        text-align: center;
+        padding-right: 900px;
+        justify-content: 1%;
+        height: 122px;
+       }
+}
+
+
+
+
+
+
+
+
+
